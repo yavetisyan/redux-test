@@ -23,7 +23,7 @@ const ReactionButtons = ({ post }) => {
           dispatch(
             reactionAdded({
               postId: post.id,
-              reactions: name,
+              reaction: name,
             }),
           );
         }}
